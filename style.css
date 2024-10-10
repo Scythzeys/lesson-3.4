@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  margin-top: 55px;
+}
+nav {
+  margin: 0 60px;
+  display: flex;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-right: 550px;
+}
+
+ul li {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgba(158, 154, 168, 1);
+}
+ul li a {
+  color: grey;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+.sign {
+  background-color: rgba(43, 208, 208, 1);
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.more_p {
+  margin: 50px 100px;
+  display: flex;
+  gap: 200px;
+}
+.more {
+  width: 600px;
+  height: 180px;
+  font-size: 80px;
+  font-weight: 700;
+  color: rgba(52, 49, 61, 1);
+  margin-bottom: 140px;
+}
+.continue {
+  background-color: rgba(43, 208, 208, 1);
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.form_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 290px;
+  bottom: -30px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Path\ 2.png);
+  width: 900px;
+  height: 130px;
+  border-radius: 10px;
+}
+.form_inpt {
+  width: 630px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+}
+.form_inpt[type="text"] {
+  font-size: 20px;
+  padding-left: 18px;
+  font-weight: 500;
+}
+.btn_form {
+  width: 130px;
+  height: 70px;
+  background-color: rgba(43, 208, 208, 1);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.btn_get {
+  width: 190px;
+  height: 60px;
+  background-color: rgba(43, 208, 208, 1);
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 20px;
+
+  font-weight: 700;
+}
+.brown_p {
+  padding-top: 80px;
+  padding-bottom:  30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(84, 48, 48, 1);
+}
+.boost {
+  color: white;
+  font-size: 50px;
+}
+.brown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(84, 48, 48, 1);
+}
+footer {
+  background-color: rgba(35, 33, 39, 1);
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 1);
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-links a:hover {
+  color: rgba(43, 208, 208, 1);
+}
+
+.footer-social a {
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+}
+
+.footer-social a:hover {
+  color: rgba(43, 208, 208, 1);
+}
+
+.footer-social i {
+  font-size: 24px;
+}
